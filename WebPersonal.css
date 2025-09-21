@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/*Aqui inician los estilos para el encabezado de la página*/
+
+header{
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    padding-top: 140px;
+    text-align: center;
+    background-image: url('fondoPWP.jpeg');
+    background-size:cover;
+    height: 260px;
+    color: black;
+    font-family: "Flavors", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+     
+nav ul li a:hover{
+    color: greenyellow;
+}
+
+/*Aqui inician los estilos para el cuerpo de la página*/
+
+main{
+    margin-top: 40px;
+}
+
+section{
+    width: 50%;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: greenyellow;
+    padding: 50px;
+}
+
+section h1{
+    color:white;
+    font-family: "Flavors", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+
+section p{
+    color: white;
+    font-size: 20px;
+}
+
+main div{
+    padding-top: 200px;
+    width: 70%;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-size: 20px;
+    padding-top: 0%;
+    text-align: left;
+}
+
+.sepbasica{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    color: greenyellow;
+    font-family: "Flavors", cursive;
+    font-weight: 50;
+    font-style: normal;
+}
+
+/*Ultimos estilos para el footer*/
+footer{
+    margin-top: 70px;
+    padding-top: 5px;
+    height: 30px;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
+
+
